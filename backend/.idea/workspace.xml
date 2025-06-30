@@ -1,24 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce8dee1-ff47-477f-b039-b542c828e275" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="1cd654a2-53e9-4db0-8799-2c6bc71236e7" name="Changes" comment="Implement login and registration with email verification">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/response/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/response/AudioFeaturesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/response/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/security/JwtConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/security/JwtProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/security/JwtTokenValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/SpotifyAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/SpotifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/SpotifyTokenScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/body/AudioFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/body/SpotifyPlaylistBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/body/TrackBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/playlists/PlaylistContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/playlists/PlaylistContentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/playlists/PlaylistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/playlists/UserPlaylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/playlists/UserPlaylistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/playlists/UserPlaylistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/rating/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/rating/RatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/rating/RatingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/rating/RatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/recommendations/CollabFilteringRecommendationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/recommendations/ManualRecommendationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/recommendations/RecommendationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/recommendations/RecommendationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/recommendations/RecommendationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/stats/Stats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/stats/StatsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/stats/StatsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/track/Track.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/track/TrackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/track/TrackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/track/TrackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/user/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/user/UserProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/user/UserProfileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/user/UserProfileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webclient/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/broadenit/broadenit/integration/UserPlaylistServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/broadenit/broadenit/integration/UserServiceIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/broadenit/broadenit/unit/RatingServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/broadenit/broadenit/unit/UserPlaylistServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/broadenit/broadenit/unit/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/BroadenItApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/BroadenItApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/registration/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/registration/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/security/UserRegistrationSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/security/UserRegistrationSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/broadenit/broadenit/BroadenItApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/broadenit/broadenit/BroadenItApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -32,33 +89,72 @@
     &quot;accountId&quot;: &quot;e3bc62e3-503c-48e5-93e2-477fb8fca2a4&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/broadenit/broadenit/spotify/recommendations/CollabFilteringRecommendationService.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2zERNFyqlkgqgeNnmP313VhXdGK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2kCsQb7NmgM3EDOE29MgKTaHSng" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.RatingServiceTest.executor": "Run",
+    "JUnit.UserPlaylistServiceTest.executor": "Run",
+    "JUnit.UserServiceIntegrationTest.executor": "Run",
+    "JUnit.UserServiceTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "Spring Boot.BroadenItApplication.executor": "Run",
+    "extract.method.default.visibility": "public",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Maciej/Desktop/broaden-it/backend",
+    "last_opened_file_path": "C:/Users/Maciej/Desktop/modele",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "code-screenshots",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.broadenit.broadenit.response" />
+      <recent name="com.broadenit.broadenit.user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BroadenItApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="broaden-it" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.broadenit.broadenit.BroadenItApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,36 +164,143 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\Maciej\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fce8dee1-ff47-477f-b039-b542c828e275" name="Changes" comment="" />
-      <created>1751294203784</created>
+      <changelist id="1cd654a2-53e9-4db0-8799-2c6bc71236e7" name="Changes" comment="" />
+      <created>1722798879370</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751294203784</updated>
-      <workItem from="1751294204805" duration="253000" />
-      <workItem from="1751295600457" duration="1733000" />
-      <workItem from="1751297621066" duration="31000" />
-      <workItem from="1751297660041" duration="11000" />
-      <workItem from="1751297733861" duration="159000" />
+      <updated>1722798879370</updated>
+      <workItem from="1722798880188" duration="1041000" />
+      <workItem from="1722799955094" duration="9424000" />
+      <workItem from="1722880334489" duration="7162000" />
+      <workItem from="1723230438197" duration="7450000" />
+      <workItem from="1723315638577" duration="9837000" />
+      <workItem from="1723401383853" duration="3237000" />
+      <workItem from="1723487402304" duration="9087000" />
+      <workItem from="1723584267196" duration="1690000" />
+      <workItem from="1723667556034" duration="5771000" />
+      <workItem from="1723929291989" duration="4553000" />
+      <workItem from="1724100533567" duration="2243000" />
+      <workItem from="1724179173138" duration="5130000" />
+      <workItem from="1724526084347" duration="4249000" />
+      <workItem from="1724704267091" duration="2545000" />
+      <workItem from="1725303415067" duration="5135000" />
+      <workItem from="1725473797846" duration="5395000" />
+      <workItem from="1725564636236" duration="4919000" />
+      <workItem from="1725577331545" duration="1585000" />
+      <workItem from="1725631131183" duration="4802000" />
+      <workItem from="1725719730586" duration="4491000" />
+      <workItem from="1725895607374" duration="4901000" />
+      <workItem from="1725916726257" duration="2956000" />
+      <workItem from="1725991617705" duration="7019000" />
+      <workItem from="1726162349206" duration="9296000" />
+      <workItem from="1726339195368" duration="8186000" />
+      <workItem from="1726593590958" duration="10049000" />
+      <workItem from="1726693121656" duration="1280000" />
+      <workItem from="1726856039913" duration="9976000" />
+      <workItem from="1726939599511" duration="6281000" />
+      <workItem from="1727022077350" duration="10093000" />
+      <workItem from="1727115861242" duration="11588000" />
+      <workItem from="1727289477299" duration="7131000" />
+      <workItem from="1727462888247" duration="8018000" />
+      <workItem from="1727719769944" duration="11439000" />
+      <workItem from="1727793810042" duration="324000" />
+      <workItem from="1727813564908" duration="7388000" />
+      <workItem from="1727893794065" duration="9022000" />
+      <workItem from="1727990666670" duration="8170000" />
+      <workItem from="1728161976262" duration="3951000" />
+      <workItem from="1728245636836" duration="4799000" />
+      <workItem from="1728332035971" duration="4057000" />
+      <workItem from="1728500718671" duration="4543000" />
+      <workItem from="1728588042460" duration="6418000" />
+      <workItem from="1728743657293" duration="20150000" />
+      <workItem from="1728830532568" duration="16218000" />
+      <workItem from="1728937090498" duration="2738000" />
+      <workItem from="1729087539291" duration="14426000" />
+      <workItem from="1729192350322" duration="1753000" />
+      <workItem from="1729717022742" duration="3299000" />
+      <workItem from="1729802737133" duration="5768000" />
+      <workItem from="1729976728914" duration="5780000" />
+      <workItem from="1730062972347" duration="6049000" />
+      <workItem from="1730153108298" duration="3086000" />
+      <workItem from="1730318815180" duration="2552000" />
+      <workItem from="1730323233479" duration="3781000" />
+      <workItem from="1730495329413" duration="2279000" />
+      <workItem from="1730560487406" duration="1020000" />
+      <workItem from="1733174318510" duration="4894000" />
+      <workItem from="1733843116883" duration="873000" />
+      <workItem from="1734130897241" duration="4452000" />
+      <workItem from="1734212759437" duration="196000" />
+      <workItem from="1734213004123" duration="3857000" />
+      <workItem from="1734638238246" duration="5079000" />
+      <workItem from="1734788561290" duration="5109000" />
+      <workItem from="1734898859819" duration="1338000" />
+      <workItem from="1734988667799" duration="863000" />
+      <workItem from="1735161608321" duration="3623000" />
+      <workItem from="1735246623779" duration="1472000" />
+      <workItem from="1735308571844" duration="10908000" />
+      <workItem from="1735412521485" duration="5576000" />
+      <workItem from="1735484439871" duration="3595000" />
+      <workItem from="1735511649495" duration="1614000" />
+      <workItem from="1735593590915" duration="5028000" />
+      <workItem from="1735849377595" duration="4571000" />
+      <workItem from="1736006446642" duration="9307000" />
+      <workItem from="1736096193513" duration="6263000" />
+      <workItem from="1736803346848" duration="1589000" />
+      <workItem from="1736888222587" duration="4928000" />
+      <workItem from="1736946934528" duration="3724000" />
+      <workItem from="1737388327122" duration="1313000" />
+      <workItem from="1737390602067" duration="1421000" />
     </task>
+    <task id="LOCAL-00001" summary="Halfway done with registration and login">
+      <option name="closed" value="true" />
+      <created>1722813321230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722813321230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1722813614897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722813614897</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implement login and registration with email verification">
+      <option name="closed" value="true" />
+      <created>1722888338860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722888338860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Halfway done with registration and login" />
+    <MESSAGE value="test" />
+    <MESSAGE value="Implement login and registration with email verification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement login and registration with email verification" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

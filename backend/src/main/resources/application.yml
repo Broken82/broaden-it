@@ -1,0 +1,25 @@
+server:
+  port: 9191
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/broaden_it
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ngrcompany21@gmail.com
+    password: mbkfheoqtvpvcgfn
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
