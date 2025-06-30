@@ -1,0 +1,94 @@
+Date : 2024-10-07 22:53:35
+Directory : c:\Users\Maciej\Desktop\vite-template-master\src
+Total : 52 files,  2684 codes, 4 comments, 432 blanks, all 3120 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |         40 |      2,419 |          2 |        378 |      2,799 |
+| CSS            |          9 |        261 |          0 |         50 |        311 |
+| TypeScript     |          2 |          3 |          2 |          3 |          8 |
+| XML            |          1 |          1 |          0 |          1 |          2 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                   |         52 |      2,684 |          4 |        432 |      3,120 |
+| . (Files)                                                                                                           |          7 |         76 |          2 |         14 |         92 |
+| components                                                                                                          |         37 |      2,441 |          2 |        379 |      2,822 |
+| components\CardMenu                                                                                                 |          2 |        138 |          0 |         27 |        165 |
+| components\ColorSchemeToggle                                                                                        |          1 |         11 |          0 |          3 |         14 |
+| components\DashboardDiscover                                                                                        |          8 |        606 |          0 |         82 |        688 |
+| components\DashboardHome                                                                                            |          4 |        167 |          0 |         27 |        194 |
+| components\DashboardPlaylists                                                                                       |          6 |        306 |          0 |         59 |        365 |
+| components\DashboardRecommendation                                                                                  |          6 |        768 |          0 |        102 |        870 |
+| components\Login                                                                                                    |          2 |        153 |          0 |         33 |        186 |
+| components\Navbar                                                                                                   |          2 |        122 |          2 |         17 |        141 |
+| components\SearchBar                                                                                                |          2 |        123 |          0 |         20 |        143 |
+| components\Welcome                                                                                                  |          4 |         47 |          0 |          9 |         56 |
+| contexts                                                                                                            |          1 |         41 |          0 |          8 |         49 |
+| pages                                                                                                               |          6 |         99 |          0 |         22 |        121 |
+| types                                                                                                               |          1 |         27 |          0 |          9 |         36 |
++---------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                            | language       | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\Maciej\Desktop\vite-template-master\src\App.tsx                                                            | TypeScript JSX |         11 |          0 |          2 |         13 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\PrivateRoute.tsx                                                   | TypeScript JSX |          9 |          0 |          2 |         11 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\Router.tsx                                                         | TypeScript JSX |         48 |          0 |          4 |         52 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\CardMenu\CardMenu.tsx                                   | TypeScript JSX |         45 |          0 |          8 |         53 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\CardMenu\CardMenuPlaylistModal.tsx                      | TypeScript JSX |         93 |          0 |         19 |        112 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\ColorSchemeToggle\ColorSchemeToggle.tsx                 | TypeScript JSX |         11 |          0 |          3 |         14 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\GenreModal.tsx                        | TypeScript JSX |        116 |          0 |         12 |        128 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\Genres.module.css                     | CSS            |          7 |          0 |          4 |         11 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\Genres.tsx                            | TypeScript JSX |        139 |          0 |         17 |        156 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\Headers.module.css                    | CSS            |          9 |          0 |          0 |          9 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\HeroDiscover.tsx                      | TypeScript JSX |         19 |          0 |          4 |         23 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\NewReleases.module.css                | CSS            |         42 |          0 |          9 |         51 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\NewReleases.tsx                       | TypeScript JSX |        136 |          0 |         13 |        149 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\Trending.tsx                          | TypeScript JSX |        138 |          0 |         23 |        161 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardHome\Hero.module.css                           | CSS            |         62 |          0 |          9 |         71 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardHome\Hero.tsx                                  | TypeScript JSX |         25 |          0 |          4 |         29 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardHome\Top10.module.css                          | CSS            |         42 |          0 |          9 |         51 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardHome\Top10.tsx                                 | TypeScript JSX |         38 |          0 |          5 |         43 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardPlaylists\PlaylistCardMenu.tsx                 | TypeScript JSX |         70 |          0 |         13 |         83 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardPlaylists\PlaylistCreateModal.tsx              | TypeScript JSX |         48 |          0 |         12 |         60 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardPlaylists\PlaylistDeleteConfirmationModal.tsx  | TypeScript JSX |          0 |          0 |          1 |          1 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardPlaylists\PlaylistHero.tsx                     | TypeScript JSX |         22 |          0 |          5 |         27 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardPlaylists\PlaylistModal.tsx                    | TypeScript JSX |         71 |          0 |          9 |         80 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardPlaylists\Playlists.tsx                        | TypeScript JSX |         95 |          0 |         19 |        114 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\HeroRecommendation.tsx          | TypeScript JSX |         19 |          0 |          3 |         22 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\RecommendationButtons.tsx       | TypeScript JSX |         51 |          0 |         16 |         67 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\RecommendationManual.module.css | CSS            |         14 |          0 |          2 |         16 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\RecommendationManual.tsx        | TypeScript JSX |        307 |          0 |         36 |        343 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\RecommendationManualModal.tsx   | TypeScript JSX |        115 |          0 |         12 |        127 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\RecommendationModal.tsx         | TypeScript JSX |        262 |          0 |         33 |        295 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\Login\Login.module.css                                  | CSS            |         22 |          0 |          6 |         28 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\Login\Login.tsx                                         | TypeScript JSX |        131 |          0 |         27 |        158 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\Navbar\Navbar.module.css                                | CSS            |         54 |          0 |          9 |         63 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\Navbar\Navbar.tsx                                       | TypeScript JSX |         68 |          2 |          8 |         78 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\SearchBar\Searchbar.tsx                                 | TypeScript JSX |         33 |          0 |          7 |         40 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\SearchBar\SearchbarModal.tsx                            | TypeScript JSX |         90 |          0 |         13 |        103 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\Welcome\Welcome.module.css                              | CSS            |          9 |          0 |          2 |         11 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\Welcome\Welcome.story.tsx                               | TypeScript JSX |          5 |          0 |          3 |          8 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\Welcome\Welcome.test.tsx                                | TypeScript JSX |         11 |          0 |          2 |         13 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\Welcome\Welcome.tsx                                     | TypeScript JSX |         22 |          0 |          2 |         24 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\contexts\AudioProvider.tsx                                         | TypeScript JSX |         41 |          0 |          8 |         49 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\favicon.svg                                                        | XML            |          1 |          0 |          1 |          2 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\main.tsx                                                           | TypeScript JSX |          4 |          0 |          2 |          6 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\pages\Dashboard.page.tsx                                           | TypeScript JSX |         29 |          0 |          5 |         34 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\pages\DashboardDiscover.page.tsx                                   | TypeScript JSX |         19 |          0 |          5 |         24 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\pages\DashboardHome.page.tsx                                       | TypeScript JSX |         13 |          0 |          3 |         16 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\pages\DashboardPlaylists.page.tsx                                  | TypeScript JSX |         10 |          0 |          3 |         13 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\pages\DashboardRecommendation.page.tsx                             | TypeScript JSX |         17 |          0 |          4 |         21 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\pages\Home.page.tsx                                                | TypeScript JSX |         11 |          0 |          2 |         13 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\theme.ts                                                           | TypeScript     |          3 |          1 |          2 |          6 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\types\playlistTypes.tsx                                            | TypeScript JSX |         27 |          0 |          9 |         36 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\vite-env.d.ts                                                      | TypeScript     |          0 |          1 |          1 |          2 |
+| Total                                                                                                               |                |      2,684 |          4 |        432 |      3,120 |
++---------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

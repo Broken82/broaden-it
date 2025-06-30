@@ -1,0 +1,16 @@
+.gradient-box{
+    background-color: blue;
+    background-image: linear-gradient(180deg, #ebf5ff 0%, blue 1000%);
+    width: 100rem;
+    height: 100rem;
+    margin-top: 15rem;
+
+}
+
+.slider{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

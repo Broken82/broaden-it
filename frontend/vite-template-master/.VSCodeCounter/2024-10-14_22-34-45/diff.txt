@@ -1,0 +1,36 @@
+Date : 2024-10-14 22:34:45
+Directory : c:\Users\Maciej\Desktop\vite-template-master\src
+Total : 8 files,  206 codes, 0 comments, 31 blanks, all 237 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |          8 |        206 |          0 |         31 |        237 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                       | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                          |          8 |        206 |          0 |         31 |        237 |
+| components                                                                                                                 |          8 |        206 |          0 |         31 |        237 |
+| components\DashboardDiscover                                                                                               |          2 |          3 |          0 |          0 |          3 |
+| components\DashboardPlaylists                                                                                              |          1 |          2 |          0 |          0 |          2 |
+| components\DashboardRecommendation                                                                                         |          5 |        201 |          0 |         31 |        232 |
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                                   | language       | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\GenreModal.tsx                               | TypeScript JSX |          2 |          0 |          0 |          2 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\Genres.tsx                                   | TypeScript JSX |          1 |          0 |          0 |          1 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardPlaylists\PlaylistCardMenu.tsx                        | TypeScript JSX |          2 |          0 |          0 |          2 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\CollabFilteringRecommendationModal.tsx | TypeScript JSX |        205 |          0 |         29 |        234 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\ContentBasedRecommendationModal.tsx    | TypeScript JSX |        262 |          0 |         33 |        295 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\RecommendationButtons.tsx              | TypeScript JSX |          0 |          0 |          2 |          2 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\RecommendationManual.tsx               | TypeScript JSX |         -4 |          0 |          0 |         -4 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\RecommendationModal.tsx                | TypeScript JSX |       -262 |          0 |        -33 |       -295 |
+| Total                                                                                                                      |                |        206 |          0 |         31 |        237 |
++----------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

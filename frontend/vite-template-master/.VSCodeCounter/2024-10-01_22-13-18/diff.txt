@@ -1,0 +1,32 @@
+Date : 2024-10-01 22:13:18
+Directory : c:\Users\Maciej\Desktop\vite-template-master\src
+Total : 4 files,  170 codes, -1 comments, 22 blanks, all 191 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |          4 |        170 |         -1 |         22 |        191 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                             |          4 |        170 |         -1 |         22 |        191 |
+| components                                                                                                    |          4 |        170 |         -1 |         22 |        191 |
+| components\DashboardDiscover                                                                                  |          1 |          6 |          0 |          0 |          6 |
+| components\DashboardPlaylists                                                                                 |          1 |         33 |          0 |          4 |         37 |
+| components\DashboardRecommendation                                                                            |          2 |        131 |         -1 |         18 |        148 |
++---------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                      | language       | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardDiscover\Trending.tsx                    | TypeScript JSX |          6 |          0 |          0 |          6 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardPlaylists\PlaylistCardMenu.tsx           | TypeScript JSX |         33 |          0 |          4 |         37 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\RecommendationButtons.tsx | TypeScript JSX |         38 |          0 |          9 |         47 |
+| c:\Users\Maciej\Desktop\vite-template-master\src\components\DashboardRecommendation\RecommendationModal.tsx   | TypeScript JSX |         93 |         -1 |          9 |        101 |
+| Total                                                                                                         |                |        170 |         -1 |         22 |        191 |
++---------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

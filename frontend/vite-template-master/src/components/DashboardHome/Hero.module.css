@@ -1,0 +1,70 @@
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-8));
+  flex: 1;
+  padding-top: rem(20px); 
+  padding-bottom: rem(40px); 
+  background-color: #ebf5ff;
+}
+
+.inner {
+  position: relative;
+  padding-top: rem(40px); 
+  padding-bottom: rem(60px); 
+  @media (max-width: $mantine-breakpoint-sm) {
+    padding-top: rem(40px); 
+    padding-bottom: rem(40px);
+  }
+}
+
+.title {
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-size: rem(62px);
+  font-weight: 900;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  
+  @media (max-width: $mantine-breakpoint-sm) {
+    font-size: rem(42px);
+    line-height: 1.2;
+  }
+}
+
+.description {
+  margin-top: var(--mantine-spacing-lg); 
+  font-size: rem(24px);
+  
+  @media (max-width: $mantine-breakpoint-sm) {
+    font-size: rem(18px);
+  }
+}
+
+.popularSongs {
+  margin-top: 30px; 
+  font-size: rem(32px); 
+  font-weight: 700; 
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white)); 
+  text-align: center; 
+}
+
+.heroImage {
+  margin-top: 110px; 
+  max-width: 100%; 
+  height: auto; 
+  animation: waveAnimation 3s infinite linear; 
+}
+
+@keyframes waveAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
