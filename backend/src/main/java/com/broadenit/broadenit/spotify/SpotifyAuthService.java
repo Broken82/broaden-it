@@ -19,8 +19,8 @@ public class SpotifyAuthService {
     private long tokenExpirationTime;
 
 
-    private static final String CLIENT_ID = "3ba917677a8d421ab1b10efe97363969";
-    private static final String CLIENT_SECRET = "c22ba04da36f489a96c0f36379ce167c";
+    private static final String CLIENT_ID = "";
+    private static final String CLIENT_SECRET = "";
 
     public SpotifyAuthService(WebClient.Builder webClientBuilder) {
         this.webClient = webClientBuilder.baseUrl("https://accounts.spotify.com/api").build();
