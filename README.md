@@ -26,6 +26,8 @@ Fullstack music recommendation web app created as a part of my bachelor's degree
   - TypeScript
 - **Database**
   - PostgreSQL
+- **Libraries**
+  - [Mantine](https://mantine.dev/)
 
 ## Instalation (Frontend)
 
